@@ -1,0 +1,13 @@
+'encryption
+password = input("enter your password : ")
+password_value = password.replace("a","9010")
+print(password_value)
+vice_versa_value = password_value[::-1]
+print(vice_versa_value)
+
+decryption
+encrypted_password = input("enter the encrypted password : ")
+reverse_value = encrypted_password[::-1]
+print(reverse_value)
+change_value = reverse_value.replace("9010","a")
+print(change_value)'''
